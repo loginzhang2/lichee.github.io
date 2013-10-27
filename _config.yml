@@ -1,3 +1,4 @@
+#encoding：utf-8
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
@@ -8,9 +9,9 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : lichee实验室
-tagline: 
-author : lichee
+title : nicecoder.net
+tagline: lichee的博客
+author :
   name : lichee
   email : zhendediaobaole@gmail.com
   github : lichee 
@@ -36,7 +37,7 @@ JB :
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #
-  # CNAME (http://yourcustomdomain.com)
+  # CNAME(http://www.nicecoder.net)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
@@ -82,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : nicecodernet
     livefyre :
       site_id : 123
     intensedebate :
